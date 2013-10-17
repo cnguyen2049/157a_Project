@@ -98,9 +98,9 @@ updatedAt DATE,
 PRIMARY KEY(LicensePlate)
 );
 
-LOAD DATA LOCAL INFILE 'C:\\Users\\Erik Macias\\Documents\\MySQL Database\\CS 157A - Inro to DataBase\\Project\\Car Rental\\customer.txt' INTO TABLE CUSTOMER;
-LOAD DATA LOCAL INFILE 'C:\\Users\\Erik Macias\\Documents\\MySQL Database\\CS 157A - Inro to DataBase\\Project\\Car Rental\\car.txt' INTO TABLE CAR;
-LOAD DATA LOCAL INFILE 'C:\\Users\\Erik Macias\\Documents\\MySQL Database\\CS 157A - Inro to DataBase\\Project\\Car Rental\\car_spec.txt' INTO TABLE CAR_SPEC;
+LOAD DATA LOCAL INFILE 'C:\\Users\\Car Rental\\customer.txt' INTO TABLE CUSTOMER;
+LOAD DATA LOCAL INFILE 'C:\\Users\\Car Rental\\car.txt' INTO TABLE CAR;
+LOAD DATA LOCAL INFILE 'C:\\Users\\Car Rental\\car_spec.txt' INTO TABLE CAR_SPEC;
 
 DROP TRIGGER IF EXISTS RemoveRentedCar;
 DELIMITER //
