@@ -1,0 +1,1 @@
+Computer Science Databse Project. SQL code creating the databse structure and the GUI(General User Interface) is written in Java. JDBC connector was used to link both the GUI and the SQL database. It was a basic car_rental system. 
